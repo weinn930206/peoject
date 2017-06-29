@@ -1,0 +1,81 @@
+@import "public.css";
+
+/* 内容 */
+.content{margin-top:60px;}
+
+/* 轮播图 */
+.swiper1{background: url(../img/home/1476321602.png) center center;}
+.swiper2{background: url(../img/home/1476322408.png) center center;}
+.swiper3{background: url(../img/home/1476322311.png) center center;}
+.swiper-container{height: 600px;}
+.swiper-pagination-bullet{background:none; width: 10px; height: 10px;border: white 1px solid;}
+.swiper-pagination-bullet-active{background: white;}
+
+/* 文字内容 */
+.contents{width: 1100px;margin:0 auto; padding-top: 50px;}
+.contents h2{border-bottom:1px solid gray;text-align: center;line-height: 60px;opacity: 0.8; margin-bottom: -3px;}
+
+.line{width: 130px; height: 4px; background: gray;margin: 0 auto;}
+.line1{width: 100%; height: 1px; background: lightgray;}
+
+/* 关于我们 */
+.about{padding:80px  20px 80px 50px; height: 330px;}
+.words{width: 500px; margin-top: 30px;font-size: 14px;}
+.words p{line-height: 28px;opacity: 0.8; }
+.more{padding: 2px 30px;border: 2px solid lightgray;width: 60px;cursor: pointer;color: gray;}
+.more a{color: gray;}
+.right{float: right;width: 480px;padding-top: 30px;}
+.bigImg{width: 300px;height: 225px;padding: 5px;border: 1px solid rgb(238,238,238);float: left;}
+.bigImgs{width: 100%;height: 100%;}
+.hide{width: 300px;height: 225px;display: none;}
+.show{display: block;}
+.smallImg{float: right;margin-top: 10px;}
+.smallImgs{width: 120px;height: 60px;border: 1px solid rgb(238,238,238); padding: 5px;position: relative;margin: -10px 0 20px;cursor: pointer;}
+.smallImgs img{width: 120px; height: 60px;}
+
+/*  文章列表 */
+.cons{background: rgb(247,248,250);padding-bottom: 80px;}
+.news{text-align: center;margin: 65px 0;}
+.industry, .company{font-size: 15px;padding: 5px 30px;border: 1px solid rgb(140,152,159);cursor: pointer;}
+.industry{margin-right: -6px;background:rgb(140,152,159) ;color: white;}
+
+.newsCon{width: 100%;overflow: hidden;position: relative; height: 450px;}
+.newsLeft{position: absolute;top: 0; left: 0;width: 100%;}
+.newsRight{position: absolute;  top:0; left: 100%;width: 100%;}
+
+.ind{width: 520px;list-style: none;height: 100px;display: inline-block;margin: 10px;border-bottom: 1px solid lightgray;padding-bottom: 15px;cursor: pointer;}
+.ind img{width: 90px;height: 90px;border-radius: 50%;float: left;}
+.details{height: 100px;overflow: hidden;font-size: 15px;line-height: 25px;float: right;width: 420px;}
+.details p{color: gray;}
+.det{overflow: hidden;height: 50px;}
+
+.article{padding: 8px 55px;background: rgb(233,41,13); font-size: 15px;color: white;width: 90px;margin: 20px auto 0;cursor: pointer;}
+
+/* 案例 */
+.caseM{height: 500px;}
+.case{height: 350px;}
+.caseChild{float: left;margin:70px 12.5px;cursor: pointer;}
+.caseImg{width: 250px;height: 200px;overflow: hidden;}
+.thumbs{width: 250px; height:200px;transition: all 0.2s linear;}
+.caseP{width: 250px; height: 40px; text-align: center;background: rgb(140,152,159);color: white;line-height: 40px;}
+.thumbs:hover{transform: scale(1.2);}
+
+
+/* 底部 */
+footer{height: 350px; background: rgb(30,30,30);}
+.footer{width: 1120px;margin: 0 auto;padding: 50px 0;}
+.footCon{float: left;width: 360px;color: white;margin:7px;}
+.footMar{margin-right: 0;}
+.footCon .contact{margin-top: 20px;height: 50px;font-size: 14px;color:gray; }
+.footCon .contact img{float: left;}
+.footCon .contact span{display: inline-block; width: 87%;line-height: 40px;height: 30px;
+    float: right;}
+.footCon .attention{color: gray;line-height: 30px;margin-top: 20px;font-size: 14px;}
+.footCon ul{height: 44px;}
+.footCon ul li{width:44px;height: 44px;overflow: hidden;float: left;margin:10px; }
+.footCon ul li img{height: 44px;}
+.img1{margin-left: -82.5px;}
+.img2{margin-left: -165px;}
+.img3{margin-left: -244.9px;}
+.footCon a{color: gray;line-height: 55px;font-size: 14px;}
+.footCon a:hover{color: white;}

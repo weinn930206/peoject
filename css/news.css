@@ -1,0 +1,9 @@
+@import "public.css";
+@import "common.css";
+
+
+.news{margin-bottom: 50px;}
+.news .cons .newsList li{height: 60px; border-bottom: 1px solid rgb(239,239,239);line-height: 60px;}
+.news .cons .newsList li .triangle{display:inline-block;width: 0; height: 0;border-left: 5px solid;border-bottom: 5px solid transparent;border-top: 5px solid transparent; border-right: 0px solid transparent;margin-left: 20px;}
+.news .cons .newsList li .time{float: right;margin-right: 20px;color: gray;}
+.news .cons .newsList li .title:hover{color: red;cursor: pointer;}

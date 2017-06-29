@@ -1,0 +1,29 @@
+@import "public.css";
+@import "common.css";
+
+/* 招贤纳士 */
+.recruit{margin-bottom: 50px;}
+.recruit .cons .jobs .jobList{border:1px solid rgb(239,239,239);margin: 50px 20px;padding: 15px;}
+.recruit .cons .jobs .jobList .jobTop{border-bottom:1px solid rgb(239,239,239);height: 60px; }
+.recruit .cons .jobs .jobList .jobTop h3{margin-bottom: 7px;}
+.recruit .cons .jobs .jobList .jobTop span{color: gray;font-size: 13px;margin-right:10px;}
+.recruit .cons .jobs .jobList .jobCon{padding:15px 0;font-size: 14px;border-bottom:1px solid rgb(239,239,239); }
+.recruit .cons .jobs .jobList .jobCon h4{height: 30px; line-height: 30px;}
+.recruit .cons .jobs .jobList .jobCon ul li{line-height: 25px; height: 25px;}
+.recruit .cons .jobs .jobList .link span{color: blue;margin: 10px 5px 0;display: inline-block;font-size: 15px;cursor: pointer;}
+
+/* 详情 */
+
+/* 在线应聘 */
+.recruit .cons .jobInput{border:1px solid rgb(239,239,239);font-size: 15px;}
+.recruit .cons .jobInput .lis,
+.recruit .cons .jobInput .li{border-bottom:1px solid rgb(239,239,239);  width: 100%;padding-top: 20px;}
+.recruit .cons .jobInput .lis{height: 53px;}
+.recruit .cons .jobInput .li{height:130px;}
+.recruit .cons .jobInput li span{width: 110px;display: inline-block;margin:0 20px;float: left;font-size: 15px;height: 100%}
+.recruit .cons .jobInput li .text{width: 362px;height: 30px; line-height: 30px;}
+.recruit .cons .jobInput .btn{height: 30px; width: 100px;background:deepskyblue;color: white;outline: none; border:none; margin: 15px 200px;}
+.recruit .cons .jobInput .lis select{width: 120px; height: 30px;font-size: 14px;}
+.recruit .cons .jobInput .li textarea{width: 362px;height: 110px;}
+.recruit .cons .jobInput .lis:last-of-type input{width: 100px;height: 30px;float: left;}
+.recruit .cons .jobInput .lis:last-of-type img{height: 32px;margin-left: 20px;}

@@ -1,0 +1,32 @@
+*{padding: 0;margin: 0;text-decoration: none;list-style-type: none;}
+.top{width: 100%;height: 35px;background: rgb(247,248,250);border-bottom: 1px solid rgb(231,232,237);}
+
+/* 导航 */
+header{width: 1120px;padding: 20px 35px;margin: 0 auto;}
+.logo{float: left;}
+.navbar{float: right;line-height: 60px;font-size: 14px;margin-right: 8px;}
+.nav, .active{padding: 7px 13px ;margin: 0 4px;}
+.nav:hover{color: red;}
+.navbar li{float: left;position: relative;}
+.navbar li a{color: black;}
+.active{color: white;background:rgb(233,40,12);	}
+
+/* hover出现列表 */
+.pull{color: black;position: absolute;z-index: 9;top:37px;left: 4px;display: none;}
+.triangle{border-bottom: 8px solid rgb(247,248,250);border-top: 0px solid transparent;border-right:8px solid transparent;border-left: 8px solid transparent;width: 0;height: 0;margin-left:33px ;}
+.choose{width: 56px;background: rgb(247,248,250);line-height: 35px;padding: 13px;}
+.choose a:hover{color: red;}
+
+/* 在线交流 */
+.online{position:fixed;z-index:9;top:100px;right:10px;font-size: 14px;cursor:pointer;}
+.onlineClose{width:26px;height: 64px;background: rgb(77,194,54);color: white;text-align: center;line-height: 16px;padding: 8px 0px;}
+.onlineOpen{width: 95px;height:99px;text-align: center; display: none;}
+.onlineOpen p{width: 100%;height: 26px;background: rgb(77,194,54);color: white;text-align: center;line-height: 26px; }
+.onlineOpen div{width: 100%; background: white;height: 53px; padding: 10px 0px;}
+.onlineOpen div span{color:rgb(77,194,54); line-height:26px; }
+
+/* 最底部 */
+.publicFoot{height:30px;background: black;color: gray;text-align: center;line-height: 30px;font-size: 12px;opacity: 0.9;width: 100%;}
+/* 清浮动 */
+.clear{content: ""; clear: both;}
+

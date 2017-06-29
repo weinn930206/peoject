@@ -1,0 +1,16 @@
+.conImg{background: url("../img/common/1342430358.jpg");background-size:100% 100%; height:300px;width: 100%;margin-top:60px; }
+
+.content{width: 1100px;margin: 0 auto; margin-top: 40px;}
+.content .list{ border:1px solid rgb(221,221,221);width:228px;height: 215px;float: left; margin-bottom: 50px;}
+.content .list p{height:60px; line-height: 60px; border-bottom: 1px solid rgb(221,221,221);font-size: 18px;padding-left: 20px;}
+.content .list ul{margin-top: 10px;}
+.content .list ul li{height: 45px; line-height: 45px;padding-left: 20px;}
+.content .list ul li a{color: black;}
+
+.actives{border-left:3px solid red;background:rgb(239,239,239); }
+.content .list ul li:hover{background:rgb(239,239,239);}
+
+.content .cons{width:830px;float: right;padding: 0 20px;}
+.content .cons .conTop{border-bottom: 1px solid rgb(239,239,239);height:60px; }
+.content .cons .conTop h2{float: left;line-height: 60px;margin-left: 10px;}
+.content .cons .conTop a{color: gray;float: right;line-height: 60px; margin-right: 10px;}
